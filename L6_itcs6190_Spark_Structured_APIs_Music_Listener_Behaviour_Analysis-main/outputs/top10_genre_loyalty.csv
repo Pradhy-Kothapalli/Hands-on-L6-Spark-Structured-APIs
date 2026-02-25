@@ -1,0 +1,11 @@
+user_id,genre,plays_in_genre,seconds_in_genre,total_plays_user,share_of_user,loyalty_score
+user_39,Hip-Hop,4,732,5,0.8,5.277717
+user_75,Jazz,3,718,4,0.75,4.933396
+user_28,Classical,4,766,6,0.6666666666666666,4.428325
+user_68,Classical,5,937,8,0.625,4.277344
+user_30,Classical,4,561,6,0.6666666666666666,4.221001
+user_96,Classical,3,596,5,0.6,3.83515
+user_33,Classical,3,482,5,0.6,3.70801
+user_52,Classical,5,782,9,0.5555555555555556,3.70174
+user_81,Jazz,6,803,11,0.5454545454545454,3.648872
+user_74,Rock,5,1104,10,0.5,3.5038
