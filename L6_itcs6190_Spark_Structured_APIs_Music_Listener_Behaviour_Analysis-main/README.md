@@ -1,9 +1,10 @@
 # Music Streaming Analysis Using Spark Structured APIs
 
 ## Overview
+This hands-on aims to analyze user music listening behavior and gain some insights, such as each user's favorite genre, Avg listening time, Genre loyalty scores, and users who listen late at night.
 
 ## Dataset Description
-
+This hands-on uses two CSV datasets that contain user listening activity and metadata about each song.
 ## Repository Structure
 
 ## Output Directory Structure
