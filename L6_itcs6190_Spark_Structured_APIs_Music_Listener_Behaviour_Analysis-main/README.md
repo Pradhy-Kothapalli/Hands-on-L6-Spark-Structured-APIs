@@ -6,12 +6,19 @@ This hands-on aims to analyze user music listening behavior and gain some insigh
 ## Dataset Description
 This hands-on uses two CSV datasets that contain user listening activity and metadata about each song.
 ## Repository Structure
-
+![Repository Structure](Screenshot%202026-02-25%20091750.png)
 ## Output Directory Structure
+All generated analysis results are stored inside the `outputs/` directory.
+
+The folder contains one CSV file per task:
+
+- `user_favorite_genres.csv`
+- `avg_listen_time.csv`
+- `top10_genre_loyalty.csv`
+- `late_night_users.csv`
 
 ## Tasks and Outputs
-
-## Execution Instructions
+Task 1 asked for each user's favorite genre. To achieve this, data was grouped by user_id and genre to compute total listen counts and total listening seconds. Genres were then ranked per user based on listen count (with total seconds and alphabetical order as tie-breakers), and the top-ranked genre was selected for each user. Task 2 asked for the average listening time per user. To achieve this, the data was grouped by user_id and the average of duration_sec was computed. The result was rounded to two decimal places and sorted in descending order. Task 3 asked to create and rank a genre loyalty score. To achieve this, total plays per user and plays per genre per user were calculated. A share value (plays_in_genre / total_plays_user) was computed. The results were ranked globally, and the top 10 were selected. Task 4 asked to identify users who listen between 12:00 AM and 5:00 AM. To achieve this, the hour was extracted from the timestamp and filtered accordingly. Late-night play counts, total seconds, and the ratio relative to total user plays were then computed for each user.
 ## *Prerequisites*
 
 Before starting the assignment, ensure you have the following software installed and properly configured on your machine:
